@@ -1,0 +1,27 @@
+/.te
+.te
+
+/terraform.tfstate.backup
+terraform.tfstate.backup
+
+*/terraform.tfstate.backup
+*.terraform.tfstate.backup
+
+# local terraform dir
+.terraform/*
+
+#tf state file
+*.tfstate
+.tfstate.
+
+terrafrom.tfvars
+
+prod\.terraform.lock.hcl
+staging\.terraform.lock.hcl
+dev\.terraform.lock.hcl
+
+*.terraform.lock.hcl
+.terraform.lock.hcl
+
+.terraform
+*/.terraform
